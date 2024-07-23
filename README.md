@@ -1,74 +1,55 @@
-#AirBnB_clone
+# 0x01.AirBnB clone - Web static
 
-##Description
+Web static" project is a part of a larger effort to create a clone of the AirBnB web application. This particular segment focuses on the front-end static aspects of the web application. Here are the key components and learning objectives you might encounter in this project:
 
-The Airbnb Clone project is a comprehensive web application that mimics the core functionalities of the popular Airbnb platform. It allows users to browse, book, and manage rental listings, as well as enables hosts to list their properties for rent. The project involves both the front-end and back-end development, utilizing technologies such as HTML, CSS, JavaScript, Python, and SQL.
+Key Components:
+HTML Structure:
 
-##The command interpreter:
+Creating and structuring HTML pages to represent different parts of the AirBnB website.
+Utilizing semantic HTML to ensure the structure is meaningful and accessible.
+CSS Styling:
 
-The command interpreter is an interactive shell that allows users to manage the application via command-line inputs. It is designed to handle CRUD operations (Create, Read, Update, Delete) for various objects in the system, including Users, Places, Reviews, and 
+Applying CSS styles to HTML elements to match the AirBnB design.
+Using CSS for layout, such as flexbox and grid, to create responsive designs.
+Implementing styling for different components like headers, footers, navigation bars, listings, and more.
+Inline and External CSS:
 
-##How to Start the Command Interpreter
+Writing and linking CSS files to HTML documents.
+Understanding the use of inline, internal, and external CSS and their specific use cases.
+Responsive Design:
 
-1. Clone the repository:
-*git clone https://github.com/yourusername/airbnbclone.git*
+Ensuring the web pages are responsive and look good on different devices (desktop, tablet, mobile).
+Using media queries to apply different styles based on device characteristics.
+Project Structure:
 
-2. Navigate to the project directory:
-*cd airbnbclone*
+Organizing project files and directories in a logical manner.
+Using a structured naming convention for HTML and CSS files.
+Learning Objectives:
+HTML and CSS Basics:
 
-3. Make the command interpreter script executable:
-*chmod +x console.py*
+Mastering the fundamentals of HTML and CSS.
+Understanding how to use different HTML elements and CSS properties.
+Layout Techniques:
 
-4. Start the command interpreter:
+Learning advanced layout techniques using flexbox and grid.
+Creating complex layouts that adapt to various screen sizes.
+Design Implementation:
 
-./console.py
+Translating a design mockup into a functional web page.
+Paying attention to details in the design, such as colors, fonts, spacing, and alignment.
+Best Practices:
 
-##How to Use the Command Interpreter
-
-The command interpreter accepts various commands to interact with the objects in the system. Here are some of the basic commands:
-
-1. Help: Display a list of available commands
-*(airbnb) help*
-
-2. Create: Create a new instance of an object
-*(airbnb) create <ClassName>*
-
-3. Show: Show the details of an object instance by its ID
-*(airbnb) show <ClassName> <id>*
-
-4. Destroy: Delete an object instance by its ID
-*(airbnb) destroy <ClassName> <id>*
-
-5. All: Display all instances of a class, or all instances of all classes
-*(airbnb) all [<ClassName>]*
-
-6. Update: Update attributes of an object instance by its ID
-*(airbnb) update <ClassName> <id> <attribute_name> <attribute_value>*
-
-
-##Examples
-
-1. Creating a new User:
-*(airbnb) create User*
-Output:
-a4b1d2f3-5678-90ab-cdef-1234567890ab
-
-2. Showing a User instance:
-*(airbnb) show User a4b1d2f3-5678-90ab-cdef-1234567890ab*
-Output:
-[User] (a4b1d2f3-5678-90ab-cdef-1234567890ab) {'id': 'a4b1d2f3-5678-90ab-cdef-1234567890ab', 'created_at': '2024-05-15T12:00:00', 'updated_at': '2024-05-15T12:00:00'}
-
-3. Updating a User instance:
-*(airbnb) update User a4b1d2f3-5678-90ab-cdef-1234567890ab email "user@example.com"*
-
-4. Deleting a User instance:
-*(airbnb) destroy User a4b1d2f3-5678-90ab-cdef-1234567890ab*
-
-5. Displaying all User instances:
-*(airbnb) all User*
-Output:
-[User] (a4b1d2f3-5678-90ab-cdef-1234567890ab) {'id': 'a4b1d2f3-5678-90ab-cdef-1234567890ab', 'created_at': '2024-05-15T12:00:00', 'updated_at': '2024-05-15T12:00:00'}
-
-##Conclusion
-
-This Airbnb Clone project is a full-featured application that provides a platform for users to list, browse, and book rental properties. The command interpreter is an essential tool for managing the backend data of the application, enabling efficient control over the various objects and their attributes.
+Writing clean, maintainable, and well-documented code.
+Following best practices for HTML and CSS development.
+Example Deliverables:
+A static homepage that mimics the AirBnB homepage.
+A static page for individual listings.
+A navigation bar that links to different sections of the site.
+A footer that includes relevant links and information.
+Styled buttons, forms, and other interactive elements.
+Tools and Technologies:
+HTML5: For structuring web content.
+CSS3: For styling and layout.
+Text Editors: Such as VS Code, Sublime Text, or any other code editor.
+Browser Developer Tools: For debugging and testing your HTML and CSS.
+By the end of this project, you should have a solid understanding of how to create and style static web pages that form the basis of a more dynamic web application. This is an important step in the process of developing a fully functional web application like AirBnB.
